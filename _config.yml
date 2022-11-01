@@ -12,6 +12,7 @@ sass:
 resume_avatar:                  "true"
 resume_name:                    "Vedant Pulahru"
 resume_title:                   "Student"
+header_pages:  About.md
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "pulahru.vedant9@gmail.com"
@@ -59,7 +60,7 @@ resume_social_links:
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
-header_pages:  readme_portfolio.md
+
 
 # Design settings
 resume_theme:                   default
