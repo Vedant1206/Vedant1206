@@ -34,7 +34,8 @@ Before proceeding with the instructions, there are a few requirements that has t
   - [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Instructions(using Fork)
-![Image](/images/Recording 2022-11-01 at 17.05.04.gif)
+
+[Image](/images/Recording 2022-11-01 at 17.05.04.gif)
 - Once the user has used the Fork command, They can easily change the template by opening the files directly on their github and commiting it once the changes has been made
 - Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via _config.yml
 - For editing content, most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
