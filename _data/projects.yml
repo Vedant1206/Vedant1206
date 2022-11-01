@@ -2,20 +2,20 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: Personal Healthcare (Group Project):
+- project: Personal Healthcare (Group Project)
   url: "https://github.com/Vedant1206/Personal-HealthCare"
   description: Language – JAVA, IDE – Android studios. Application providing diagnoses about the probable causes of users’ symptoms.
 
 # Springfield Community Outreach Group
-- project: Computer Vision: - Face Detection and Recognition:
+- project: Computer Vision: - Face Detection and Recognition
   url: "https://github.com/Vedant1206/Computer_Vision_Project"
   description: Language – Python, IDE – Visual studios and PyCharm. Recognizing and detecting a user’s face with the help of the OpenCV library.
   
-  project: Research Paper: - Imitation Learning:
+  project: Research Paper: - Imitation Learning
   url: "https://github.com/Vedant1206/Imitation-Learning-research-paper"
   description: Includes the basics of Artificial Intelligence along with details of different imitation learning strategies. Discussed how imitation works with 2-3 examples. Referred to IEEE research papers and concluded.
 
 # Springfield Community Outreach Group
-- project: Sudoku Solver:
+- project: Sudoku Solver
   url: "https://github.com/Vedant1206/SudokuSolverProject"
   description: Language - JAVA. Implementing a backtracking algorithm to determine the correct solution.
