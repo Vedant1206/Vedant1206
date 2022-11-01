@@ -1,66 +1,75 @@
-# Resume template
+# Guide on how to Host a Resume on Github Pages
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+The purpose of this README is to help the user to host as well as format a resume using software stack such as Github Pages, Jekyll, Markdown, and Visual Studio Code
 
-![img](images/screenshot.png)
+- [Requirements](#Requirements)
+- [Instructions](#instructions)
 
-## Docs
 
-### Running locally
+## Requirements
+Before proceeding with the instructions, there are a few requirements that has to be met.
 
-To test locally, run the following in your terminal:
+- Github Account
+  - A Github account allows the user to store codes in different repositories and you will be able to use Github pages as well.
+  - [Sign up for free](https://www.github.com/)
+ 
+- Ruby, Jekyll and GitBash
+  - Download [Ruby](https://www.ruby-lang.org/en/downloads/)
+  - Run command: "ruby -v" to check if ruby has been installed.
+  - Download [Jekyll](https://jekyllrb.com/docs/installation/)
+  - Run command: "jekyll -v" to check if jekyll has been installed.
+  - Download [Gitbash](https://git-scm.com/downloads)
+  
+- Resume(Jekyll templates)
+  - Jekyll Template: You can download a free template from [here](https://jekyllthemes.io/free). All the templates will redirect you to the github page where you can either clone it to your local repository or fork it to your github page. Using fork is easier as the you dont have to use command line but I will show how to do both ways.
+  - For local computer
+    - Once downloaded, Open command prompt and navigate the folder where you downloaded the template.
+    - On Command prompt, once reached the folder, Run: Bundle install
+    - Once downloaded, Run: buncle exec jekyll serve
+    - After this, a link will pop up, copy that and paste it on any web browser to see the template.
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+- Markdown Editor using Sublime
+  - As a coder, a text editor is very important. I, personally like to use [Sublime(download from here)](https://www.sublimetext.com/) because it is one of the best text editors as it allows us to code in any language possible and is user friendly.
+  - You will have to make your resume in Markdown format. If you choose to make a resume from scratch and not use a jekyll template, the following link will give you some head start on how to use Markdown
+  - [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
-### Running locally with Docker
+## Instructions(using Fork)
+![Image](./images/Recording 2022-11-01 at 17.05.04.gif)
+- Once the user has used the Fork command, They can easily change the template by opening the files directly on their github and commiting it once the changes has been made
+- Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via _config.yml
+- For editing content, most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+- For changing photo, click on images folder, and paste any image and rename it as avatar.jpg
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+## Instructions(using Local Computer)
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+### Step 1) Open Github and Create Repository
+- Once signed into the github account, you will see an option "Repositories" and click on it.
+- A new page will pop up where you will see a green button on the right hand side that says "New". Click on it.
+- In the repository name, type "[your-github-name].github.io".
+- Click on Create Repository
 
-### Customizing
+### Step 2) Clone repository on your local computer
+- On your github account, click on the github repository that you made earlier.
+- You will see a green color button saying code. Click on that. 
+- Copy the link and open the folder where you want to clone this repo.
+- Once the folder is open, right click and click on "git bash here".
+- type- git clone "link that you coppied" and press enter. The repo will be created.
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+### Step 3) Bundle install
+- Using command line, cd to the directory where you cloned the repository.
+- Once reached, type "bundle install".
+- Once downloaded, type "bundle exec jekyll serve".
+- Open your browser to `localhost:4000`
 
-#### Options/configuration
+### Step 4) Customize suitable resume
+- Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via _config.yml
+- For editing content, most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+- For changing photo, click on images and paste any image and rename it as avatar.jpg
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
-
-[...write these out...]
-
-#### Editing content
-
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
-
-### Publishing to GitHub Pages for free
-
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+### Step 5) Pushing the data on Github
+- After making the changes, now you have to push the data back to github repo. 
+- To do this, again run git bash and paste the folowing commands in sequence
+  - git add .
+    -(If there is an error, type git status, if you see red colored text, type git add "red colored text". This should be done for everyfile that wasn't added manually and one by one)
+  - git commit -m "added files"
+  - git push origin master
