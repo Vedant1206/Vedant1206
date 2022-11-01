@@ -1,11 +1,11 @@
 # Skills
 # Organizational leadership
 - skill: Language and Technologies
-  description: Language: Java, Python, Processing JavaScript, C++, SQL. Technologies: IntelliJ, Android Studios, Visual Studios, PyCharm, Processing, Sublime, Dev-C++, SQLite, Git.
+  description: Java, Python, Processing JavaScript, C++, SQL. IntelliJ, Android Studios, Visual Studios, PyCharm, Processing, Sublime, Dev-C++, SQLite, Git.
   
 # Communications strategy
 - skill: Mathematical background
-  description: logic, linear algebra, calculus, statistics, probability, …
+  description: logic, linear algebra, calculus, statistics, probability
 
 # Digital content development and creation
 - skill: Soft skills
