@@ -1,5 +1,5 @@
 ---
 layout: page
 title: README
-permalink: /about/
+permalink: /readme_portfolio.md/
 ---
