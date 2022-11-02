@@ -39,9 +39,9 @@ Before proceeding with the instructions, there are a few requirements that has t
 ## Instructions using Fork
 ![Image](https://github.com/Vedant1206/Vedant1206.github.io/blob/gh-pages/images/Recording%202022-11-01%20at%2017.05.04.gif)
 
-- First, the user has used the Fork command, clone it locally on github, and then they can easily change the template by opening the files directly on their github and commiting it once the changes has been made
+- First, the user has used the Fork command, clone it on github, and then they can easily change the template by opening the files directly on their github and commiting it once the changes has been made
 - Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via _config.yml
-- For editing content, most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+- For editing content, most of the content configuration will take place in the `/_data/` file. Simply edit the markup there accordingly
 - For changing photo, click on images folder, and paste any image and rename it as avatar.jpg
 
 ## Instructions using Local Computer
