@@ -4,7 +4,74 @@
 The purpose of this README is to help the user to host as well as format a resume using software stack such as Github Pages, Jekyll, Markdown, and Visual Studio Code
 
 - [Requirements](#Requirements)
-- [Instructions](#instructions)
+  - [Github Account](#1-Github-Account)
+  - [Ruby, Jekyll and GitBash](#2-Ruby,-Jekyll-and-GitBash)
+  - [Resume Jekyll templates](#3-Resume-Jekyll-templates)
+  - [Markdown Editor](#4-Markdown-Editor)
+- [Instructions using Fork](#instructions-using-fork)
+- [Instructions using Fork](#instructions-using-fork)
+  - [](#)
+  - [](#)
+  - [](#)
+  - [](#)
+
+## Requirements
+Before proceeding with the instructions, there are a few requirements that has to be met.
+
+
+
+
+
+## Instructions using Fork
+
+## Instructions(using Local Computer)
+
+### Step 1) Open Github and Create Repository
+
+### Step 2) Clone repository on your local computer
+
+
+### Step 3) Bundle install
+
+
+### Step 4) Customize suitable resume
+
+
+### Step 5) Pushing the data on Github
+
+
+## More Resources(using Local Computer)
+
+## Authors and Achnowledgements
+
+## FAQ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Requirements
@@ -21,7 +88,7 @@ Before proceeding with the instructions, there are a few requirements that has t
   - Run command: "jekyll -v" to check if jekyll has been installed.
   - Download [Gitbash](https://git-scm.com/downloads)
   
-- Resume(Jekyll templates)
+- Resume Jekyll templates
   - Jekyll Template: You can download a free template from [here](https://jekyllthemes.io/free). Andrew Etter(Page 51) describes Jekyll as a "robust system for generating nested navigation menus" as it is was developed specially for documentations. All the templates will redirect you to the github page where you can either clone it to your local repository or fork it to your github page. Using fork is easier as the you dont have to use command line but I will show how to do both ways.
   - For local computer
     - Once downloaded, Open command prompt and navigate the folder where you downloaded the template.
@@ -33,7 +100,7 @@ Before proceeding with the instructions, there are a few requirements that has t
   - You will have to make your resume in Markdown format. If you choose to make a resume from scratch and not use a jekyll template, the following link will give you some head start on how to use Markdown
   
 
-## Instructions(using Fork)
+## Instructions using Fork
 ![Image](https://github.com/Vedant1206/Vedant1206.github.io/blob/gh-pages/images/Recording%202022-11-01%20at%2017.05.04.gif)
 
 - First, the user has used the Fork command, clone it locally on github, and then they can easily change the template by opening the files directly on their github and commiting it once the changes has been made
