@@ -4,75 +4,11 @@
 The purpose of this README is to help the user to host as well as format a resume using software stack such as Github Pages, Jekyll, Markdown, and Visual Studio Code
 
 - [Requirements](#Requirements)
-  - [Github Account](#1-Github-Account)
-  - [Ruby, Jekyll and GitBash](#2-Ruby,-Jekyll-and-GitBash)
-  - [Resume Jekyll templates](#3-Resume-Jekyll-templates)
-  - [Markdown Editor](#4-Markdown-Editor)
 - [Instructions using Fork](#instructions-using-fork)
-- [Instructions using Fork](#instructions-using-fork)
-  - [](#)
-  - [](#)
-  - [](#)
-  - [](#)
-
-## Requirements
-Before proceeding with the instructions, there are a few requirements that has to be met.
-
-
-
-
-
-## Instructions using Fork
-
-## Instructions(using Local Computer)
-
-### Step 1) Open Github and Create Repository
-
-### Step 2) Clone repository on your local computer
-
-
-### Step 3) Bundle install
-
-
-### Step 4) Customize suitable resume
-
-
-### Step 5) Pushing the data on Github
-
-
-## More Resources(using Local Computer)
-
-## Authors and Achnowledgements
-
-## FAQ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [Instructions using Local Computer](#Instructions-using-Local-Computer)
+- [More Resources](#More-Resources)
+- [Authors and Achnowledgements](#Authors-and-Achnowledgements)
+- [FAQ](#FAQ)
 
 ## Requirements
 Before proceeding with the instructions, there are a few requirements that has to be met.
@@ -108,9 +44,9 @@ Before proceeding with the instructions, there are a few requirements that has t
 - For editing content, most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
 - For changing photo, click on images folder, and paste any image and rename it as avatar.jpg
 
-## Instructions(using Local Computer)
+## Instructions using Local Computer
 
-### Step 1) Open Github and Create Repository
+### Step 1 Open Github and Create Repository
 - Once signed into the github account, you will see an option "Repositories" and click on it.
 - A new page will pop up where you will see a green button on the right hand side that says "New". Click on it.
 - In the repository name, type "[your-github-name].github.io".
@@ -147,7 +83,7 @@ Before proceeding with the instructions, there are a few requirements that has t
 
 ### Once Either of the instruction are completed, The resume has been successfully hosted and the user can open it by typing- github-username.github.io 
 
-## More Resources(using Local Computer)
+## More Resources
 - For additional help regarding Markdown, here is a [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) and a [Markdown Tutorial](https://www.markdowntutorial.com/) for better understanding
 - For additional help with using Git and Git bash, here is a [link](https://www.youtube.com/watch?v=USjZcfj8yxE)
 - Andrew Etter’s Modern Technical Writing will be a good source to understand about [Techical writing(https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
